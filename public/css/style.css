@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+:root{
+  /* COLORS */
+  --color-font:#696969;
+  --color-black:#000;
+  --color-bg-about:#F7F7F7;
+  /* SIZES */
+  --text-size:1.6rem;
+  --banner-title-size:4.8rem;
+  --banner-p-size:3.2rem;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: var(--text-size) !important;
+  overflow-x: hidden ;
+}
+
+a.nav-link{
+  color:var(--color-font);
+}
+
+a.nav-link:hover{
+  color: currentColor;
+}
+
+.btn-custom{
+  border: 1px solid;
+  color: var(--color-black);
+  text-decoration: none;
+  padding: 0.5rem 1.0rem;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+.bg-about{
+  background-color: var(--color-bg-about);
+}
+
+.banner-title{
+  font-size:var(--banner-title-size) ;
+  text-transform: uppercase;
+  padding-left: 3.0rem;
+}
+.banner-p{
+ font-size:var(--banner-p-size);
+ font-weight: 400;
+ line-height:4.8rem;
+ max-width:592px;
+ color: var(--color-font);
+ padding-left: 3.0rem;
+}
+
+.our > p {
+  color: var(--color-font);
+  font-weight: 600;
+  line-height: 2.4rem;
+}
+
+.our h2{
+  font-size: 3.0rem;
+  padding-right: 2.0rem;
+}
+
+.our p{
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+  text-align: justify;
+}
+ .itens .item{
+   padding: 3.0em;
+   border-right: 1px solid #E2E2E2;
+ }
+
+ .item h3{
+   font-size: 2.2rem;
+   font-weight: bold;
+ }
+
+ .item p{
+  font-weight: 400;
+ }
+
+ .break{
+   background-color:#3A5DB6;
+ }
+ .break blockquote{
+   padding: 2.0rem;
+ }
+ .break p{
+   font-size: 3.2rem;
+   line-height: 4.4rem;
+   color: #fff;
+   text-align: center;
+   max-width: 940px;
+   margin: 0 auto;
+   justify-content: center;
+   align-content: center;
+ }
+
+ .break p > span {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+ }
+
+ .break p > span#author {
+   color: #ccc;
+   font-weight: 600;
+
+ }
+
+ .break p > span#profissao {
+  font-weight: 300;
+}
+
+.break .desgraca{
+  padding: 10rem;
+  background-color: #32509C;
+  border-top-right-radius: 25.0rem;
+  border-bottom-right-radius: 25.0rem;
+}
+
+.break .desgraca:after{
+  content: "o";
+  color: #32509C;
+}
